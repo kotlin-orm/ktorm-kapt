@@ -1,3 +1,5 @@
 package org.ktorm.kapt
 
-public annotation class KtormTable()
+@Target(AnnotationTarget.CLASS)
+@Retention(AnnotationRetention.SOURCE)
+public annotation class KtormTable
